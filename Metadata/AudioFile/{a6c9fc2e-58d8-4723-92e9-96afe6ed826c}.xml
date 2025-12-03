@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a6c9fc2e-58d8-4723-92e9-96afe6ed826c}">
+		<property name="assetPath">
+			<value>music/entryway_NEW.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>218.18181250000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c7fb5ed7-ebf7-498e-89a3-af0ad096eb3a}</destination>
+		</relationship>
+	</object>
+</objects>

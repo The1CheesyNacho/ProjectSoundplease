@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f0d7159a-286e-4a73-94e4-5567d19b204c}">
+		<property name="assetPath">
+			<value>SFX/sfx_thunderstruck.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.4285625</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c7fb5ed7-ebf7-498e-89a3-af0ad096eb3a}</destination>
+		</relationship>
+	</object>
+</objects>

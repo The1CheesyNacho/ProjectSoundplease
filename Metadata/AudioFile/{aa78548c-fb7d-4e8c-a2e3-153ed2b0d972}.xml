@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{aa78548c-fb7d-4e8c-a2e3-153ed2b0d972}">
+		<property name="assetPath">
+			<value>SFX/Detransfo.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.1541041666666665</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c7fb5ed7-ebf7-498e-89a3-af0ad096eb3a}</destination>
+		</relationship>
+	</object>
+</objects>
