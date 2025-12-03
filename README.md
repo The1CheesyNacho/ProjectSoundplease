@@ -2,14 +2,12 @@
 
 # Info
 Hey!, 
-this Recreation uses the [SS Fmod Fun](https://github.com/Emil2010/Sugary-Spire-Fmod-Fun) or that "Sugary Spire Fmod Recreation" Repo as a base, 
-but neither of those were finished, 
-So Calebiwe2027 (yes, the chuliso guy.) decided to finish it instead.
-Also, i only saved the project name to something else than just "ss fmod fun two" or Whatever so please dont mind.
+this Recreation uses the [The Losers Fmod Recreation](https://github.com/theloser7455/SugarySpireFMOD-Recreation) 
+Name Inspired By [ProjectSoundbleed](https://github.com/TheBerryBush/ProjectSoundbleed) by azphina 
 # Requirements 
 You need [FMOD Studio 2.02](https://www.fmod.com/download#fmodstudio) to use the FMOD Project/Recreation.
-#  Here's the credits!
+# credits!
 Credits to,
-Emil2010 for making the Original Fmod recreation/Repo.
-and, 
+Emil2010,theloser7455 for making the Original Fmod recreation/Repo.
 Calebiwe2027 (aka chuliso guy) for finishing up the Recreation itself.
+Jon9l for the escape event
