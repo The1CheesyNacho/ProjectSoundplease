@@ -3,7 +3,7 @@ Hey!,
 this Recreation uses the [The Losers Fmod Recreation](https://github.com/theloser7455/SugarySpireFMOD-Recreation) 
 Name Inspired By [ProjectSoundbleed](https://github.com/TheBerryBush/ProjectSoundbleed) by azphina 
 # Requirements 
-[Sugary Spire : Exhbition Night](https://en-painter.itch.io/sugary-spire-exhibition-night)
+[Sugary Spire : Exhibition Night](https://en-painter.itch.io/sugary-spire-exhibition-night)
 [FMOD Studio 2.02](https://www.fmod.com/download#fmodstudio)
 [Fmod Bank Tools](https://github.com/Wouldubeinta/Fmod-Bank-Tools)
 # credits!
