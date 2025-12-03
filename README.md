@@ -1,5 +1,3 @@
-![ssfmodrecreationrhiglogo](https://github.com/user-attachments/assets/fa53231e-e66e-42eb-8505-3b72fa533a01)
-
 # Info
 Hey!, 
 this Recreation uses the [The Losers Fmod Recreation](https://github.com/theloser7455/SugarySpireFMOD-Recreation) 
