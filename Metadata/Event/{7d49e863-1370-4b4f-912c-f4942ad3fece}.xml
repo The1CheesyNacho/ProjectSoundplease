@@ -93,7 +93,11 @@
 			<destination>{8343b4a1-4b1a-432e-8848-1bff9a3d521f}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{f1d03b25-eb18-4c23-af9f-48ea48eee8f8}" />
+	<object class="MultiSound" id="{f1d03b25-eb18-4c23-af9f-48ea48eee8f8}">
+		<relationship name="sounds">
+			<destination>{fb8b255f-1394-4400-a742-447c1dd2a86c}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{f44af489-84bf-4732-a7ef-c3a972213edb}">
 		<relationship name="effects">
 			<destination>{bef796fd-597d-4582-8291-73c46a616bb2}</destination>
@@ -121,6 +125,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2a028620-58f6-44a4-9d59-4a5403934131}" />
+	<object class="MultiSound" id="{fb8b255f-1394-4400-a742-447c1dd2a86c}">
+		<relationship name="sounds">
+			<destination>{d5b1756d-bb83-45ff-9a79-09f7b057368c}</destination>
+			<destination>{e532467b-e158-4301-b29b-dd020441bc0b}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{bef796fd-597d-4582-8291-73c46a616bb2}" />
 	<object class="MixerBusEffectChain" id="{559f9572-1e64-43f6-bfa0-991704fc6fdc}">
 		<relationship name="effects">
@@ -131,10 +141,20 @@
 	<object class="MixerBusFader" id="{064644f2-f620-4c55-af12-23dcaf561554}" />
 	<object class="ProxyEffect" id="{bf203de9-4810-484f-95aa-2bb9ed1abe95}">
 		<property name="inputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="preset">
 			<destination>{b6494010-b5ea-48c4-b177-4e0bd19c397c}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{d5b1756d-bb83-45ff-9a79-09f7b057368c}">
+		<relationship name="audioFile">
+			<destination>{34d7b3a9-aa2f-4391-8414-e270781eb458}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{e532467b-e158-4301-b29b-dd020441bc0b}">
+		<relationship name="audioFile">
+			<destination>{d5670db1-1131-4169-b560-97a7e5687746}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{d22f2ec5-5e9c-44f0-a263-e88f8fa766c7}" />
