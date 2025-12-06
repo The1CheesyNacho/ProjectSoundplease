@@ -78,7 +78,6 @@
 		<relationship name="modules">
 			<destination>{f747eed5-c773-4855-880b-1c58278049bd}</destination>
 			<destination>{b2e1369d-7ba1-445a-ac36-2c2dd44a6a31}</destination>
-			<destination>{a5ebfb5d-5dc5-4e3d-927e-00a5895e551b}</destination>
 			<destination>{e20415f3-55bb-4a0a-8fed-2ee3627f2924}</destination>
 			<destination>{560ad5bf-9169-4d50-9204-b82dfabc3752}</destination>
 			<destination>{273d7ebb-3707-4680-ba25-5a2a7cb8329a}</destination>
@@ -93,7 +92,6 @@
 	</object>
 	<object class="Timeline" id="{7a01aa81-a67c-470e-8e2e-738297f61cca}">
 		<relationship name="modules">
-			<destination>{a5ebfb5d-5dc5-4e3d-927e-00a5895e551b}</destination>
 			<destination>{e20415f3-55bb-4a0a-8fed-2ee3627f2924}</destination>
 			<destination>{19378e9e-3acc-4f92-940f-4d81398241e6}</destination>
 			<destination>{d927f8cd-06fc-41d4-bda1-f90190391066}</destination>
@@ -185,20 +183,6 @@
 			<destination>{882d348d-7473-4f7b-81c7-3c162574d90e}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{a5ebfb5d-5dc5-4e3d-927e-00a5895e551b}">
-		<property name="isCutoff">
-			<value>true</value>
-		</property>
-		<property name="start">
-			<value>594.61529166666674</value>
-		</property>
-		<property name="length">
-			<value>144.00356249999999</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{d44231d3-cc57-4d30-af56-3118ab279d2c}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{e20415f3-55bb-4a0a-8fed-2ee3627f2924}">
 		<property name="start">
 			<value>440</value>
@@ -241,7 +225,7 @@
 			<value>266.19081249999999</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{3df36dfd-f8a1-4780-ab1b-35b23c43d916}</destination>
+			<destination>{63293ef8-3a90-44b2-997c-154cba19798c}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{d927f8cd-06fc-41d4-bda1-f90190391066}">
@@ -255,7 +239,7 @@
 			<value>144.00356249999999</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{d44231d3-cc57-4d30-af56-3118ab279d2c}</destination>
+			<destination>{b5771e0d-f09b-410c-9040-ae9dad85e0c3}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{6e9dddda-877e-4c6d-a91c-f8dbed35a6a5}">
@@ -798,7 +782,7 @@
 			<value>0</value>
 		</property>
 		<property name="maximum">
-			<value>10</value>
+			<value>0</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{792c7fec-e93d-4b4b-a814-2a6e9c6ccdc5}</destination>
