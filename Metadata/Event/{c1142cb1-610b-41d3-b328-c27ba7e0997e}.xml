@@ -168,6 +168,9 @@
 		<property name="transitionOffset">
 			<value>1</value>
 		</property>
+		<property name="name">
+			<value>Down To Noise</value>
+		</property>
 		<property name="looping">
 			<value>2</value>
 		</property>
@@ -190,6 +193,9 @@
 		</property>
 		<property name="transitionOffset">
 			<value>1</value>
+		</property>
+		<property name="name">
+			<value>Pizzanos Obligatory Orchestral Play</value>
 		</property>
 		<property name="looping">
 			<value>2</value>
