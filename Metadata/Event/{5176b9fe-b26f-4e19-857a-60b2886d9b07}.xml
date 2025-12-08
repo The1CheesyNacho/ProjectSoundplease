@@ -5,7 +5,7 @@
 			<value>superjumprelease</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c0a8e841-72f6-47f2-8a2d-a934597bebf9}</destination>
@@ -99,6 +99,7 @@
 	<object class="MixerBusEffectChain" id="{46c7fac1-1d6a-41cb-84ff-aae8a487df5f}">
 		<relationship name="effects">
 			<destination>{213faf80-8f13-4433-b4e5-48cf0382d6ee}</destination>
+			<destination>{aea46675-eb5e-4166-9348-987f21e9a425}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{132dd20d-b37f-462a-b50e-8642c132e91f}" />
@@ -109,4 +110,12 @@
 	</object>
 	<object class="MixerBusFader" id="{81bd7f6b-ab71-47f7-a5c7-ca313a45f30a}" />
 	<object class="MixerBusFader" id="{213faf80-8f13-4433-b4e5-48cf0382d6ee}" />
+	<object class="ProxyEffect" id="{aea46675-eb5e-4166-9348-987f21e9a425}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{b6494010-b5ea-48c4-b177-4e0bd19c397c}</destination>
+		</relationship>
+	</object>
 </objects>

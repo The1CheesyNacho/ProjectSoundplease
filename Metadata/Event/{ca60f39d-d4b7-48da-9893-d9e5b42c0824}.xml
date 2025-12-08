@@ -5,7 +5,7 @@
 			<value>superjumpcancel</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c0a8e841-72f6-47f2-8a2d-a934597bebf9}</destination>
@@ -167,6 +167,7 @@
 	<object class="MixerBusEffectChain" id="{b2f626f5-bfcc-4047-8bba-ad609766d13e}">
 		<relationship name="effects">
 			<destination>{6c6ba73a-42e1-408e-be7b-e253a4e0c3bd}</destination>
+			<destination>{c407c5ad-bfa2-4cbf-835e-3545e264d76c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3ebd7c40-2744-44eb-83a8-a4423b24ae22}" />
@@ -216,6 +217,14 @@
 	</object>
 	<object class="MixerBusFader" id="{da77ffc5-dc97-4b1b-b5de-d19bcc658e81}" />
 	<object class="MixerBusFader" id="{6c6ba73a-42e1-408e-be7b-e253a4e0c3bd}" />
+	<object class="ProxyEffect" id="{c407c5ad-bfa2-4cbf-835e-3545e264d76c}">
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="preset">
+			<destination>{b6494010-b5ea-48c4-b177-4e0bd19c397c}</destination>
+		</relationship>
+	</object>
 	<object class="AutomationPoint" id="{4114e6a3-8539-4cf3-85c1-223c35edc30b}">
 		<property name="position">
 			<value>0.20000000000000001</value>

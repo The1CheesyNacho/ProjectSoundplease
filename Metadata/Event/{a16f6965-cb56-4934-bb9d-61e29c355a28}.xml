@@ -5,7 +5,7 @@
 			<value>step</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c0a8e841-72f6-47f2-8a2d-a934597bebf9}</destination>
@@ -99,6 +99,7 @@
 	<object class="MixerBusEffectChain" id="{949e6f45-4f94-43c7-85f7-d2995ba33bf7}">
 		<relationship name="effects">
 			<destination>{1c5b266d-46f8-405d-a039-c0d11866e0ed}</destination>
+			<destination>{693e53c6-6c97-4b49-b130-c5ad1efa72eb}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{278defc9-1936-4155-9695-dc9d9e6e81c5}" />
@@ -109,4 +110,12 @@
 	</object>
 	<object class="MixerBusFader" id="{9f9105cc-e94c-4eba-ad31-8a70ccbfa9ee}" />
 	<object class="MixerBusFader" id="{1c5b266d-46f8-405d-a039-c0d11866e0ed}" />
+	<object class="ProxyEffect" id="{693e53c6-6c97-4b49-b130-c5ad1efa72eb}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{b6494010-b5ea-48c4-b177-4e0bd19c397c}</destination>
+		</relationship>
+	</object>
 </objects>

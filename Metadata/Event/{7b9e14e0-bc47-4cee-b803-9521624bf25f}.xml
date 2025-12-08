@@ -5,7 +5,7 @@
 			<value>rollgetup</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c0a8e841-72f6-47f2-8a2d-a934597bebf9}</destination>
@@ -96,6 +96,7 @@
 	<object class="MixerBusEffectChain" id="{47a80bd3-4156-4e1e-8ca6-76c835d32ac7}">
 		<relationship name="effects">
 			<destination>{99d88f80-209f-493f-9f06-8163e6a7d7d5}</destination>
+			<destination>{ffdaddfa-9499-4ee4-b03f-f854c3d2de1c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e085c53a-2afe-46ed-8acc-fb110e7fdc46}" />
@@ -106,4 +107,12 @@
 	</object>
 	<object class="MixerBusFader" id="{c528fe60-ae1f-498d-9588-3cf9bd8f4f7b}" />
 	<object class="MixerBusFader" id="{99d88f80-209f-493f-9f06-8163e6a7d7d5}" />
+	<object class="ProxyEffect" id="{ffdaddfa-9499-4ee4-b03f-f854c3d2de1c}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{b6494010-b5ea-48c4-b177-4e0bd19c397c}</destination>
+		</relationship>
+	</object>
 </objects>

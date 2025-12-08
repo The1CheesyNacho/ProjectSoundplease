@@ -5,7 +5,7 @@
 			<value>psychicfrogstart</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c0a8e841-72f6-47f2-8a2d-a934597bebf9}</destination>
@@ -96,6 +96,7 @@
 	<object class="MixerBusEffectChain" id="{0a4ad9df-f96d-4808-87e0-96824acc50bd}">
 		<relationship name="effects">
 			<destination>{9e56bbc3-e09d-4eb1-abc8-8c3ed4189da8}</destination>
+			<destination>{804cbf0b-bfe9-4f54-9041-b9518655078f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8d097d16-0b98-4a37-82a4-1e160aeef990}" />
@@ -106,4 +107,12 @@
 	</object>
 	<object class="MixerBusFader" id="{8809a5aa-a594-41b3-ae17-a53f971f9ee6}" />
 	<object class="MixerBusFader" id="{9e56bbc3-e09d-4eb1-abc8-8c3ed4189da8}" />
+	<object class="ProxyEffect" id="{804cbf0b-bfe9-4f54-9041-b9518655078f}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{b6494010-b5ea-48c4-b177-4e0bd19c397c}</destination>
+		</relationship>
+	</object>
 </objects>

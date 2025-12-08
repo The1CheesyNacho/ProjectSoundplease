@@ -5,7 +5,7 @@
 			<value>tumble</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c0a8e841-72f6-47f2-8a2d-a934597bebf9}</destination>
@@ -143,6 +143,7 @@
 	<object class="MixerBusEffectChain" id="{3ce4a2e5-77a6-48e3-ae7b-4b14916d7ce8}">
 		<relationship name="effects">
 			<destination>{bbfc11f9-5d20-4c24-970d-22db94e71ae1}</destination>
+			<destination>{5bb54d27-a896-4342-ba80-d104b3093a90}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{fb436747-5429-4499-8e8b-288feeddc374}" />
@@ -154,5 +155,13 @@
 	</object>
 	<object class="MixerBusPanner" id="{29297106-f7eb-472e-ae60-74afe9ed3368}" />
 	<object class="MixerBusFader" id="{bbfc11f9-5d20-4c24-970d-22db94e71ae1}" />
+	<object class="ProxyEffect" id="{5bb54d27-a896-4342-ba80-d104b3093a90}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{b6494010-b5ea-48c4-b177-4e0bd19c397c}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{41f096a8-1cdb-4069-8ff7-8cd7d6f36265}" />
 </objects>

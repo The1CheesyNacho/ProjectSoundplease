@@ -5,7 +5,7 @@
 			<value>taunt</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c0a8e841-72f6-47f2-8a2d-a934597bebf9}</destination>
@@ -119,6 +119,7 @@
 	<object class="MixerBusEffectChain" id="{fe2b65a1-3bf3-489f-8c1e-fe3e40f330e3}">
 		<relationship name="effects">
 			<destination>{c176529c-1637-4451-bb1f-44f9ea3e7e7a}</destination>
+			<destination>{3f3d9ee9-aeb7-435a-b53b-9bcc34c67443}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7b80d4b3-c163-4eb2-bccc-ad1abe7b5309}" />
@@ -164,4 +165,12 @@
 	</object>
 	<object class="MixerBusFader" id="{a61e9e26-99ad-4b0e-804b-eb3a99ab500a}" />
 	<object class="MixerBusFader" id="{c176529c-1637-4451-bb1f-44f9ea3e7e7a}" />
+	<object class="ProxyEffect" id="{3f3d9ee9-aeb7-435a-b53b-9bcc34c67443}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{b6494010-b5ea-48c4-b177-4e0bd19c397c}</destination>
+		</relationship>
+	</object>
 </objects>

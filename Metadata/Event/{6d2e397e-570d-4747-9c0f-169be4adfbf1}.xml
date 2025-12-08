@@ -5,7 +5,7 @@
 			<value>wallKickCancel</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c0a8e841-72f6-47f2-8a2d-a934597bebf9}</destination>
@@ -113,6 +113,7 @@
 	<object class="MixerBusEffectChain" id="{ae7d099a-528d-4c07-bd47-dd605c23c3d2}">
 		<relationship name="effects">
 			<destination>{9f7cc4f9-e109-423e-a08d-9ec4ddcf1813}</destination>
+			<destination>{b325f92f-9da3-4513-9153-8c843f5e977e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3ba261bc-cf36-4512-b8db-c4689df34b7b}" />
@@ -124,5 +125,13 @@
 	</object>
 	<object class="MixerBusPanner" id="{9ee11235-a774-4c90-b19e-0e422748441f}" />
 	<object class="MixerBusFader" id="{9f7cc4f9-e109-423e-a08d-9ec4ddcf1813}" />
+	<object class="ProxyEffect" id="{b325f92f-9da3-4513-9153-8c843f5e977e}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{b6494010-b5ea-48c4-b177-4e0bd19c397c}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{68537bf3-7fcc-4075-8298-a9659d54db3c}" />
 </objects>

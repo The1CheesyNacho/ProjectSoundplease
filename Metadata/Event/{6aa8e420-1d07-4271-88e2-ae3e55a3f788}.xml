@@ -5,7 +5,7 @@
 			<value>machslideboost</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c0a8e841-72f6-47f2-8a2d-a934597bebf9}</destination>
@@ -96,6 +96,7 @@
 	<object class="MixerBusEffectChain" id="{641b7bfe-428b-47a0-8a1b-76895fbeb1a4}">
 		<relationship name="effects">
 			<destination>{bf9964ac-fb8a-40fc-9e2d-1e5ff1a01510}</destination>
+			<destination>{f331ae54-6e62-40af-a2d7-5969afc4f072}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{69441e02-d509-457c-ae19-fc70de761ad1}" />
@@ -109,4 +110,12 @@
 	</object>
 	<object class="MixerBusFader" id="{939ab8fd-48d2-4807-8c7f-5ab92485443d}" />
 	<object class="MixerBusFader" id="{bf9964ac-fb8a-40fc-9e2d-1e5ff1a01510}" />
+	<object class="ProxyEffect" id="{f331ae54-6e62-40af-a2d7-5969afc4f072}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{b6494010-b5ea-48c4-b177-4e0bd19c397c}</destination>
+		</relationship>
+	</object>
 </objects>

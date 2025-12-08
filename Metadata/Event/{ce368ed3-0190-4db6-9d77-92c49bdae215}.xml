@@ -5,7 +5,7 @@
 			<value>slipend</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c0a8e841-72f6-47f2-8a2d-a934597bebf9}</destination>
@@ -96,6 +96,7 @@
 	<object class="MixerBusEffectChain" id="{bad4f478-f5e3-421d-8ff3-3a70b54a2512}">
 		<relationship name="effects">
 			<destination>{deb5e1ae-86e1-4c91-87ad-74920644772f}</destination>
+			<destination>{84d7c44e-6429-4ae5-9cca-cde4c2ed1fa6}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e0c21775-8256-44b8-97f2-848f205c369d}" />
@@ -108,6 +109,14 @@
 	</object>
 	<object class="MixerBusFader" id="{d54cd0c0-d855-41c0-8eb4-0135aa0f2254}" />
 	<object class="MixerBusFader" id="{deb5e1ae-86e1-4c91-87ad-74920644772f}" />
+	<object class="ProxyEffect" id="{84d7c44e-6429-4ae5-9cca-cde4c2ed1fa6}">
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="preset">
+			<destination>{b6494010-b5ea-48c4-b177-4e0bd19c397c}</destination>
+		</relationship>
+	</object>
 	<object class="SingleSound" id="{9d008d84-353f-4ae3-81a2-4fa1036f1181}">
 		<relationship name="audioFile">
 			<destination>{87feac26-7444-47b3-a8c4-ef8eaea56ad1}</destination>

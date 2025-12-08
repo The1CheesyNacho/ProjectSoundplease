@@ -5,7 +5,7 @@
 			<value>superjump</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c0a8e841-72f6-47f2-8a2d-a934597bebf9}</destination>
@@ -146,6 +146,7 @@
 	<object class="MixerBusEffectChain" id="{4e3d6f18-f3e9-41cd-8dde-884edce0c819}">
 		<relationship name="effects">
 			<destination>{37ae18ea-adf6-48d5-b761-c303f4defa44}</destination>
+			<destination>{923e8bc6-6059-4c33-863b-598f173dddda}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f829b14e-146a-4407-a766-7aa491d8420c}" />
@@ -157,5 +158,13 @@
 	</object>
 	<object class="MixerBusPanner" id="{d57f478a-5a8b-4b65-984c-9d859bdf7e4d}" />
 	<object class="MixerBusFader" id="{37ae18ea-adf6-48d5-b761-c303f4defa44}" />
+	<object class="ProxyEffect" id="{923e8bc6-6059-4c33-863b-598f173dddda}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{b6494010-b5ea-48c4-b177-4e0bd19c397c}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{830927ca-c75b-4280-a822-7008ae96198f}" />
 </objects>

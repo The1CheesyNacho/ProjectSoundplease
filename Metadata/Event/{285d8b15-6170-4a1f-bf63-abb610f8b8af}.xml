@@ -5,7 +5,7 @@
 			<value>bumpwall</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c0a8e841-72f6-47f2-8a2d-a934597bebf9}</destination>
@@ -96,6 +96,7 @@
 	<object class="MixerBusEffectChain" id="{b63c07a1-c12a-4651-8d51-d2b792891230}">
 		<relationship name="effects">
 			<destination>{0f9ee2aa-5984-46a7-ac7c-a3792b43b681}</destination>
+			<destination>{0978a9eb-3fdb-4aee-baf0-e4379f2ee84b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{27d3d6af-887d-4c95-86b6-ff42c3ce08e1}" />
@@ -106,4 +107,12 @@
 	</object>
 	<object class="MixerBusFader" id="{c8ed5b82-3189-43a4-af50-5a03a1f83033}" />
 	<object class="MixerBusFader" id="{0f9ee2aa-5984-46a7-ac7c-a3792b43b681}" />
+	<object class="ProxyEffect" id="{0978a9eb-3fdb-4aee-baf0-e4379f2ee84b}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{b6494010-b5ea-48c4-b177-4e0bd19c397c}</destination>
+		</relationship>
+	</object>
 </objects>

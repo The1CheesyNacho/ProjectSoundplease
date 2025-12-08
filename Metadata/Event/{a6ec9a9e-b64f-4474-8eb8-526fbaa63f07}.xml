@@ -5,7 +5,7 @@
 			<value>crouchslide</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c0a8e841-72f6-47f2-8a2d-a934597bebf9}</destination>
@@ -118,6 +118,7 @@
 	<object class="MixerBusEffectChain" id="{7d6a2fee-605d-4776-bad9-c9a554ad653e}">
 		<relationship name="effects">
 			<destination>{056c6997-7ba5-4b66-8465-4b433314516d}</destination>
+			<destination>{18018341-3910-4ce5-800c-04f4ba43d0cf}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ff81780f-d4b3-4a39-a657-5fe366e24530}" />
@@ -137,5 +138,13 @@
 	</object>
 	<object class="MixerBusPanner" id="{32a371ee-5f2d-4d9a-9f70-378c6d77fa25}" />
 	<object class="MixerBusFader" id="{056c6997-7ba5-4b66-8465-4b433314516d}" />
+	<object class="ProxyEffect" id="{18018341-3910-4ce5-800c-04f4ba43d0cf}">
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="preset">
+			<destination>{b6494010-b5ea-48c4-b177-4e0bd19c397c}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{496c961a-23dd-4b1e-81c8-d3794a0e1a90}" />
 </objects>

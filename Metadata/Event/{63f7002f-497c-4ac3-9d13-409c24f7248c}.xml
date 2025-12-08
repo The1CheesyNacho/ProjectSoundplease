@@ -5,7 +5,7 @@
 			<value>psychicfrogend</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c0a8e841-72f6-47f2-8a2d-a934597bebf9}</destination>
@@ -96,6 +96,7 @@
 	<object class="MixerBusEffectChain" id="{c443cd41-1ecb-48d2-8363-2fcdf1cbba30}">
 		<relationship name="effects">
 			<destination>{d96d5292-5d11-44d5-abaa-b7dba4fc3918}</destination>
+			<destination>{1310c32e-cd54-4db8-a4c0-404f4da5537d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1795f569-dfbd-4303-bdce-ef2637d575d5}" />
@@ -106,4 +107,12 @@
 	</object>
 	<object class="MixerBusFader" id="{4dac9a46-351c-4125-9d07-fdc59ddd40f4}" />
 	<object class="MixerBusFader" id="{d96d5292-5d11-44d5-abaa-b7dba4fc3918}" />
+	<object class="ProxyEffect" id="{1310c32e-cd54-4db8-a4c0-404f4da5537d}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{b6494010-b5ea-48c4-b177-4e0bd19c397c}</destination>
+		</relationship>
+	</object>
 </objects>

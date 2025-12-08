@@ -5,7 +5,7 @@
 			<value>suplexdash</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c0a8e841-72f6-47f2-8a2d-a934597bebf9}</destination>
@@ -113,6 +113,7 @@
 	<object class="MixerBusEffectChain" id="{608848d3-5884-4350-9e49-e25202f0c2e4}">
 		<relationship name="effects">
 			<destination>{b13a1328-a9ed-4654-95bd-48c60262e151}</destination>
+			<destination>{66b87d73-c4d5-479a-8726-bd127cf07dd9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{da588c17-42bf-44a9-875c-0033b0524698}" />
@@ -124,5 +125,13 @@
 	</object>
 	<object class="MixerBusPanner" id="{a9810836-2930-47eb-8e90-4c22b5e2b470}" />
 	<object class="MixerBusFader" id="{b13a1328-a9ed-4654-95bd-48c60262e151}" />
+	<object class="ProxyEffect" id="{66b87d73-c4d5-479a-8726-bd127cf07dd9}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{b6494010-b5ea-48c4-b177-4e0bd19c397c}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{7c354cf4-2d0d-4ce7-a9a1-25be91bcb4cc}" />
 </objects>
