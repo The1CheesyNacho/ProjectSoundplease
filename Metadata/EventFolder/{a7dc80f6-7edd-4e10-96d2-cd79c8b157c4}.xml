@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{a7dc80f6-7edd-4e10-96d2-cd79c8b157c4}">
+		<property name="name">
+			<value>gnome</value>
+		</property>
+		<relationship name="folder">
+			<destination>{98b39ce7-a5d9-48d3-9c5f-98de1268031d}</destination>
+		</relationship>
+	</object>
+</objects>

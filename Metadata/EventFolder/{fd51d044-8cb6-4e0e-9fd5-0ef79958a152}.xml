@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{fd51d044-8cb6-4e0e-9fd5-0ef79958a152}">
+		<property name="name">
+			<value>minecart</value>
+		</property>
+		<relationship name="folder">
+			<destination>{98b39ce7-a5d9-48d3-9c5f-98de1268031d}</destination>
+		</relationship>
+	</object>
+</objects>

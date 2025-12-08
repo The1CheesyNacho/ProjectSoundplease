@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{cdb9e94b-5f6e-4086-aba6-2fc229928667}">
+		<property name="assetPath">
+			<value>sfx/thru cotton.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>8.3478124999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c7fb5ed7-ebf7-498e-89a3-af0ad096eb3a}</destination>
+		</relationship>
+	</object>
+</objects>

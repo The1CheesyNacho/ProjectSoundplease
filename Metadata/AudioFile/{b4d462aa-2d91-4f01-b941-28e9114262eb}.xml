@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{b4d462aa-2d91-4f01-b941-28e9114262eb}">
+		<property name="assetPath">
+			<value>sfx/sfx_flingfrogpull.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.7767708333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c7fb5ed7-ebf7-498e-89a3-af0ad096eb3a}</destination>
+		</relationship>
+	</object>
+</objects>
